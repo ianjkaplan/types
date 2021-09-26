@@ -1,0 +1,28 @@
+{
+  "name": "@hapipal/types-schmervice",
+  "version": "2.0.0",
+  "description": "Type definitions for @hapipal/schmervice",
+  "main": "",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "npx tsd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hapipal/types.git"
+  },
+  "author": "Ian Kaplan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hapipal/types/issues"
+  },
+  "homepage": "https://github.com/hapipal/types/tree/main/types/schmervice",
+  "devDependencies": {
+    "@hapi/hapi": "^20.2.0",
+    "@hapipal/schmervice": "^2.0.0",
+    "tsd": "^0.17.0"
+  },
+  "dependencies": {
+    "@types/hapi__hapi": "^20.0.9"
+  }
+}
